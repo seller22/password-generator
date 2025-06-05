@@ -40,6 +40,20 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
+## Work Implements
+-------------------------------------------------------!
+| Function / Block        | Kya Kaam Karta Hai                                                                                                  |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `useState()`            | Har variable ke liye state banata hai (jaise length, checkboxes, password).                                         |
+| `generatePassword()`    | User ke selected options (uppercase, lowercase, numbers, symbols) ke mutabiq ek random password generate karta hai. |
+| `copyToClipboard()`     | Banaya gaya password clipboard mein copy karta hai aur alert dikhata hai.                                           |
+| `setLength()`           | Password ki length update karta hai jab user number change karta hai.                                               |
+| `setIncludeUppercase()` | Checkbox se uppercase letters ka option on/off karta hai.                                                           |
+| `setIncludeLowercase()` | Checkbox se lowercase letters ka option on/off karta hai.                                                           |
+| `setIncludeNumbers()`   | Checkbox se numbers include karna hai ya nahi, ye set karta hai.                                                    |
+| `setIncludeSymbols()`   | Checkbox se special symbols include karna hai ya nahi, wo set karta hai.                                            |
+| `return (...)`          | React component ka UI (user interface) return karta hai jisme input fields aur buttons hote hain.                   |
+
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
